@@ -226,7 +226,7 @@ window.handleTypstLocation = function (
 
       // window.scrollTo(xOffset, yOffset);
       /// this would be better for preview svg
-      window.scrollTo({ behavior: "smooth", left: basePos.left, top: yOffset });
+      window.scrollTo({ behavior: "smooth", left: basePos.left, top: top });
 
       triggerRipple(
         docRoot,
